@@ -1,9 +1,3 @@
-/* change these */
-
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:400italic,800italic,400,800");
-/* @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap'); */
-@import url("https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic");
-
 @import url("https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;700&display=swap");
 
 @import url("https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;700&family=Roboto:wght@300;500;700&display=swap") * {
@@ -37,7 +31,7 @@ footer {
 }
 
 header {
-  padding: 30px 0;
+  padding: 3.5rem 0;
 }
 
 header h1 {
@@ -47,6 +41,7 @@ header h1 {
 }
 
 header h2 {
+  font-size: 1.5rem;
   padding-bottom: 5px;
   font-weight: 300;
 }
@@ -63,7 +58,7 @@ main {
     "buttons adjectives";
   grid-template-rows: auto auto;
   grid-template-columns: 1fr 1fr;
-  grid-gap: 30px;
+  grid-gap: 50px;
 }
 
 @media only screen and (max-width: 1150px) {
@@ -82,9 +77,9 @@ main {
 }
 
 .wrapper {
-  max-width: 1000px;
+  max-width: 1300px;
   margin: auto;
-  padding: 0 30px;
+  padding: 0 50px;
 }
 .column {
   flex-grow: 1;
@@ -93,9 +88,9 @@ main {
 
 .section-heading {
   font-style: italic;
-  font-size: 22px;
+  font-size: 25px;
   color: rgb(212, 212, 212);
-  margin-bottom: 10px;
+  margin-bottom: 1rem;
 }
 
 .swatches {
@@ -109,7 +104,7 @@ main {
 }
 
 .swatches .color {
-  height: 200px;
+  height: 250px;
 }
 
 .color-swatch-1 {
@@ -131,13 +126,14 @@ main {
 button {
   text-align: center;
   text-decoration: none;
+  font-size: 1.1rem;
   font-family: var(--secondary-font);
   color: var(--bg-color);
   background: var(--white);
   border: 3px solid var(--white);
   cursor: pointer;
   white-space: nowrap;
-  padding: 8px 45px;
+  padding: 0.9em 5.5em;
   font-weight: 700;
 }
 
@@ -163,6 +159,7 @@ button {
 
 .h1-sample {
   font-size: 2.4rem;
+  margin-bottom: 1.2rem;
   font-weight: bold;
 }
 
@@ -170,12 +167,14 @@ button {
   font-family: var(--secondary-font);
   font-style: italic;
   font-size: 1.25rem;
+  margin-bottom: 0.5rem;
 }
 
 p.typography-sample {
   font-family: var(--secondary-font);
   line-height: 1.5;
   max-width: 960px;
+  margin-bottom: 0.5rem;
 }
 
 strong {
@@ -192,14 +191,6 @@ a {
   font-weight: bold;
   text-decoration: none;
   transition: all 0.2s;
-}
-
-p[class*="font-details-"] {
-  margin-top: 0.5rem;
-  margin-bottom: calc(2 * var(--white-space));
-  font-size: 0.75rem;
-  font-family: var(--secondary-font);
-  color: #6f6f6f;
 }
 
 .adjectives {
