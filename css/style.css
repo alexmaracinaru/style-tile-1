@@ -175,6 +175,19 @@ button {
   font-size: 2.4rem;
   margin-bottom: 1.2rem;
   font-weight: bold;
+  position: relative;
+  display: inline-block;
+}
+
+.h1-sample:before {
+  content: "";
+  background: var(--purple);
+  width: 100%;
+  position: absolute;
+  left: 0.7em;
+  bottom: -6px;
+  height: 6px;
+  z-index: -1;
 }
 
 .h2-sample {
