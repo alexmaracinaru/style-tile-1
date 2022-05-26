@@ -11,24 +11,58 @@
   <body>
     <div class="header-wrapper wrapper">
       <header>
-        <h1>GuidedSubstance</h1>
-        <h2><strong>Style tile</strong> - Version 1</h2>
+        <img class="logo" src="./img/logo.png" alt="" />
+        <nav>
+          <ul>
+            <li>
+              <a href=""> <img src="./img/search.png" alt="" /></a>
+            </li>
+            <li>
+              <a href="">
+                <img src="./img/save.png" alt="" />
+              </a>
+            </li>
+            <li>
+              <button class="button nav-button">Add a recipe</button>
+            </li>
+            <li>
+              <span class="name">Mark S.</span>
+            </li>
+            <li>
+              <a href="">
+                <img class="granny" src="./img/mark.PNG" alt="" />
+              </a>
+            </li>
+            <li>
+              <button class="secondary-button">Log out</button>
+            </li>
+          </ul>
+        </nav>
       </header>
+      <h2><strong>Ux Project</strong> - Style Tile</h2>
     </div>
 
     <main class="wrapper">
-      <section class="texture">
-        <h3 class="section-heading">Texture</h3>
+      <section class="adjectives">
+        <h3 class="section-heading">Keywords</h3>
+
+        <ul>
+          <li>"Friendly"</li>
+          <li>"Belonging"</li>
+          <li>"Familiar"</li>
+          <li>"Intuitive"</li>
+          <li>"Healthy"</li>
+        </ul>
       </section>
       <section class="swatches">
-        <h3 class="section-heading">Colour swatches</h3>
+        <h3 class="section-heading">Color swatches</h3>
         <ul class="swatchgrid">
           <li class="color color-swatch-1"></li>
           <li class="color color-swatch-2"></li>
           <li class="color color-swatch-3"></li>
-          <li class="color color-swatch-4"></li>
         </ul>
       </section>
+
       <section class="buttons">
         <h3 class="section-heading">Buttons</h3>
         <div>
@@ -36,30 +70,72 @@
           <button class="secondary-button">Close</button>
         </div>
       </section>
+
       <section class="typography-main">
         <h3 class="section-heading">Typography</h3>
-        <h1 class="h1-sample">A sample header</h1>
-        <h2 class="h2-sample">An example of a sub header</h2>
+        <h1 class="h1-sample">
+          Roboto Regular - This is a sample heading always used in uppercase
+        </h1>
+        <h2 class="h2-sample">
+          Roboto Serif Italic - This is an example of a subheading, used usually
+          in the short description and spanning multiple lines.
+        </h2>
         <p class="typography-sample">
-          This sample paragraph has <strong>strong parts</strong> and
-          <em>emphasized parts</em>. Vestibulum tortor quam, feugiat vitae,
-          ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam
-          egestas semper. Aenean ultricies mi vitae est. Mauris placerat
-          eleifend leo. Pellentesque habitant morbi tristique senectus et netus
-          et malesuada fames ac turpis egestas.
+          Roboto Serif - An easy to read font in all sizes. Used because of its
+          accessibility purposes, especially on smaller screens. This sample
+          paragraph has
+          <strong>strong parts</strong> and <em>emphasized parts</em>, as well
+          as <a href="#" class="typography-sample"> text links.</a> It is used
+          in the body copy and in the exceprts.
         </p>
-        <a href="#" class="typography-sample"
-          >This is an example of a text link.</a
-        >
+
+        <article>
+          <h3 class="section-heading">Tags</h3>
+          <button class="tag exclude">Exclude <strong>x</strong></button>
+          <button class="tag include">Include <strong>x</strong></button>
+          <button class="tag dietary-active">Dietary active</button>
+          <button class="tag dietary-inactive">Dietary inactive</button>
+        </article>
       </section>
-      <section class="adjectives">
-        <h3 class="section-heading">Keywords</h3>
-        <ul>
-          <li>"Night club"</li>
-          <li>"Incognito"</li>
-          <li>"Exciting"</li>
-        </ul>
+      <section>
+        <h3 class="section-heading">Image Styles</h3>
       </section>
     </main>
+    <footer>
+      <!--  <section class="partners">
+        <h2 class="partners-heading">Our Partners</h2>
+        <div class="partners-logos">
+          <img src="./img/visitcph.svg" alt="" />
+          <img src="./img/epicurious.svg" alt="" />
+          <img src="./img/yummly.svg" alt="" />
+          <img src="./img/visitcph.svg" alt="" />
+          <img src="./img/visitcph.svg" alt="" />
+          <img src="./img/visitcph.svg" alt="" />
+          <img src="./img/visitcph.svg" alt="" />
+          <img src="./img/visitcph.svg" alt="" />
+        </div>
+      </section> -->
+
+      <div class="footer-column l-footer">
+        <img class="logo" src="./img/logo.png" alt="" />
+        <a href="mailto:am@brandiaq.com"> Contact</a>
+        <a href="./about.html"> About us</a>
+        <a href="#">Newsletter</a>
+      </div>
+      <div class="footer-column c-footer">
+        <div class="social-media">
+          <img src="./img/facebook-line.svg" alt="facebook" />
+          <img src="./img/instagram-line.svg" alt="instagram" />
+          <img src="./img/pinterest-line.svg" alt="pinterest" />
+        </div>
+
+        <a href="#"> © Copyright 2022</a>
+      </div>
+      <div class="footer-column r-footer">
+        <a href="faq.html"> FAQ</a>
+        <a href="./about.html">Terms and Conditions</a>
+        <a href="#">Privacy Policy</a>
+      </div>
+    </footer>
   </body>
 </html>
