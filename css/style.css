@@ -53,11 +53,17 @@ nav button {
   font-size: 14px;
   font-weight: 400;
 }
+nav button:hover {
+  background-color: var(--light-coral);
+}
 li{
 margin-left: 7px;
 font-size: 14px;
 text-decoration: none;
-
+}
+li img {
+  width: 20px;
+  height:20px;
 }
 nav a {
   border:none;
@@ -65,7 +71,8 @@ nav a {
   text-decoration: none;
 }
 .nav-button {
-  padding: 0.5em 1.5em;
+  padding: 0.7em 1.5em;
+  font-weight: 600;
 }
 header h1 {
   font-size: 2rem;
@@ -174,7 +181,9 @@ button {
   border: none;
   border-radius: 8px;
 }
-
+button:hover {
+  background-color: var(--light-coral);
+}
 .buttons {
   grid-area: buttons;
 }
@@ -184,7 +193,10 @@ button {
   color: var(--blackish);
   font-weight: 600;
 }
-
+.secondary-button:hover {
+  background-color: transparent;
+  color:#BC5532;
+}
 .typography-main {
   grid-area: typography;
   color: var(--main-text-color);
@@ -279,6 +291,9 @@ a.typography-sample:hover {
   color: var(--blackish);
 }
 
+.image-style {
+  max-width: 400px;
+}
 /* .partners {
   background-color: var(--lightgray);
   padding: 3.875rem;
@@ -301,7 +316,7 @@ a.typography-sample:hover {
 footer {
   display: flex;
   justify-content: space-between;
-  padding: 100px;
+  padding: 120px;
   background-color: var(--lightgray);
   align-items: flex-end;
 }
@@ -326,9 +341,3 @@ footer a:hover {
  footer .logo {
 padding-bottom: 20px;
  }
- 
-
- 
- 
- 
- 
