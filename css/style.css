@@ -18,6 +18,17 @@
   --secondary-font: 'Roboto Serif', serif;
   --body-font: 'Roboto Serif', serif;
   --tags: "Roboto", sans-serif;
+  --grey: #bababa;
+  --grey-text: #c1c1c1;
+  --grey-text-1: #949494;
+  --black: #020209;
+  --orange: #bc5532;
+  --yellow: #fde8b1;
+  --white: #f8f8f8;
+  --lightgrey: #ededed;
+  --blue: #cce4f1;
+  --primary-font: "Roboto", sans-serif;
+  --border-radius: 8px;
 }
 
 html {
@@ -189,13 +200,22 @@ button:hover {
 }
 
 .secondary-button {
-  background: transparent;
-  color: var(--blackish);
-  font-weight: 600;
+  padding: 0.6em 1.2em;
+  cursor: pointer;
+  user-select: none;
+  display: inline-flex;
+  align-items: center;
+  background: none;
+  font-weight: 500;
+  font-family: var(--primary-font);
+  font-size: 17px;
+  border: 2px solid var(--black);
+  border-radius: var(--border-radius);
+  text-decoration: none;
+  color: var(--black);
 }
 .secondary-button:hover {
   background-color: transparent;
-  color:#BC5532;
 }
 .typography-main {
   grid-area: typography;
@@ -236,10 +256,11 @@ em {
 }
 
 a.typography-sample {
-  font-family: var(--primary-font);
+  font-family: var(--secondary-font);
   color: var(--link-color);
   font-weight: bold;
   text-decoration: none;
+  font-style: italic;
   
 }
 
@@ -273,6 +294,9 @@ a.typography-sample:hover {
   font-weight: 400;
   font-size: 13px;
 }
+.tag:hover {
+  background-color: white;
+}
 .exclude {
   background-color: var(--pink);
   color: var(--blackish);
@@ -294,25 +318,7 @@ a.typography-sample:hover {
 .image-style {
   max-width: 400px;
 }
-/* .partners {
-  background-color: var(--lightgray);
-  padding: 3.875rem;
-}
-.partners-heading {
-  padding-bottom: 60px;
-  font-family: var(--secondary-font);
 
-}
-.partners-logos {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: auto;
-  grid-gap: 100px;
-}
-
-.partners-logos img {
-  max-width: 150px;
-} */
 footer {
   display: flex;
   justify-content: space-between;
